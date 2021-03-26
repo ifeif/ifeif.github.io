@@ -16,6 +16,7 @@
             .cd-top:hover{opacity:1}
             
     </style>
+	<link rel="shortcut icon" type="images/x-icon" href="resource/cool.jpg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
 	<!--添加Live 2D-->
 	<script src="https://l2dwidget.js.org/lib/L2Dwidget.min.js"></script>
@@ -43,24 +44,11 @@
 	</script>
 </head>
 <body>
-<p>
-	抽象类：<br>
-		○ 两种抽象方式的细微的不同<br>
-			§ 与具体相对：该类表示一种概念而非实体<br>
-			§ 与细节相对：该类表示在一定程度上忽略细节而着眼大局<br>
-	• 作用：抽象类和类中的所有数据（拥有的成员）只能用来被别的类继承，仅仅表达类之间的关系，不能生成任何对象<br>
-	• 抽象函数没有实体，表达概念而没有具体代码的函数<br>
-	• 如果一个类有了一个抽象的方法，这个类就必须声明为抽象类。如果父类是抽象类，那么子类必须覆盖所有在父类中的抽象方法，否则子类也成为一个抽象类。<br>
-	• 扩充：我们可以设计一个抽象类没有任何抽象方法，所有的方法都必须有方法体，但是整个类是抽象的。这样设计主要是为了防止制造它的对象出来。<br>
-接口：<br>
-	• Java把抽象的概念又更推进了一步，这就是接口（Interface）。接口其实就是完全抽象的类，因此接口和类的地位是一样的，此前所有针对类的所有法则同样适用于接口。<br>
-	• 接口所有的方法都是没有方法体的，而且都是public abstract，即使你没有这样声明。而接口中的所有成员变量都是public static final的变量，并且必须有定义初始化，因为所有变量都必须在编译的时候有确定值。<br>
-	• 接口和类的地位是一样的。因此我们可以看到其定义方式跟类也是基本上一样的。当然，其中的所有方法都没有方法体。而当类从接口得到继承的时候，Java用另外一个动词：实现（implements）。当然，实现接口的类必须覆盖接口中所有的方法，否则这个类就成为一个抽象类。<br>
-	• Java不允许多继承，但是允许一个类实现多个接口，也允许一个接口从多个接口得到继承，但是不允许接口从类继承。<br>
-	• 我们可以把接口当作一个纯粹的抽象类，接口只能用来被别的类实现（implements）<br>
-作用：接口可以定义一个没有管理任何对象的管理者（空指针），这个管理者可以管理绑定在一个以此接口实现的对象（利用多态）<br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</p>
+<div>
+	<figure id="centerbg" class="centerbg" style="background-image: url('./resource/美女.png');">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
 
 <a href="https://blog.qaiu.top/#" class="cd-top" style="top: -900px;"></a>
 <script type="text/javascript" src="./resource/jquery.min.js"></script>
